@@ -1,0 +1,10 @@
+- hosts: all
+  user: root
+  roles:
+    - restart-handlers
+    - update-dnf
+    - install-firewalld
+    - install-nginx
+    - install-php
+    - install-mariadb
+    - install-wordpress
