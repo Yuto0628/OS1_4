@@ -1,5 +1,5 @@
 - hosts: all
-  user: root
+  user: "{{ user_name }}"
   roles:
     - restart-handlers
     - update-dnf
